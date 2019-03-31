@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this,"Estimated Cost of Apartment",Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(MainActivity.this,apartment.class));
+                startActivity(new Intent(MainActivity.this,details.class));
             }
         });
 

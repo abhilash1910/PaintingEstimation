@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    >
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="No of rooms"
+        android:inputType="number"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <EditText
+        android:id="@+id/editTextl"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="Length of a room"
+        android:inputType="number"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="250dp"
+       />
+
+    <EditText
+        android:id="@+id/editTextb"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="181dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="Breadth of a room"
+        android:inputType="number"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="250dp"
+        />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="No of doors"
+        android:inputType="number"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+       />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="262dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="No of windows"
+        android:inputType="number"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="222dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="No of bathrooms"
+        android:inputType="number"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+       />
+
+    <EditText
+        android:id="@+id/editTextbathl"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="Length of bathroom"
+        android:inputType="number"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="250dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextbathr"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="Breadth of bathroom"
+        android:inputType="number"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="250dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="241dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Details of the room"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+       />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="150dp"
+        android:layout_height="57dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="  Total cost at Rs 100 per sq metre"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        />
+
+
+    <Button
+        android:id="@+id/submitdet"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Submit"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        />
+
+</RelativeLayout>

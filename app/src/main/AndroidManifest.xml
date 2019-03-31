@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".wallactivity" />
-        <activity android:name=".apartment"></activity>
+        <activity android:name=".apartment" />
+        <activity android:name=".details" />
+        <activity android:name=".output"></activity>
     </application>
 
 </manifest>
